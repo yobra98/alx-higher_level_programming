@@ -1,13 +1,5 @@
 #!/usr/bin/python3
-"""
-Script that lists all `State` objects, and corresponding
-`City` objects, contained in the database `hbtn_0e_101_usa`.
 
-Arguments:
-    mysql username (str)
-    mysql password (str)
-    database name (str)
-"""
 
 import sys
 from sqlalchemy import (create_engine)
